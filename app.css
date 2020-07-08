@@ -7,7 +7,7 @@ body {
 
 .homepage {
     background-image: url('mosaic.png');
-    background-position: 50% 80%;
+    background-position: 50% 85%;
     background-repeat: no-repeat;
     background-size: 50vh;
 }
@@ -37,10 +37,26 @@ p {
 
 }
 
+
+.card {
+    background-color: rgb(250, 166, 26)
+}
+
+.card-title {
+    color: rgb(129, 41, 144)
+}
+
+.card-text {
+    color: whitesmoke
+}
+
 a { 
     color: rgb(238, 32, 92); 
 }
-
+.btn-primary {
+    background-color: rgb(182, 201, 41);
+    border-color: rgb(129, 41, 144)
+}
 a:hover {
     color: rgb(250, 166, 26);
 }
