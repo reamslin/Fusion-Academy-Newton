@@ -3,6 +3,10 @@ body {
     color: whitesmoke;
     font-family: Arial, Helvetica, sans-serif;
 }
+div {
+    margin: 5%;
+}
+
 
 .homepage {
     background-image: url('mosaic.png');
