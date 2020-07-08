@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(129, 41, 144);
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.homepage {
+    background-image: url('mosaic.png');
+    background-position: 50% 80%;
+    background-repeat: no-repeat;
+    background-size: 50vh;
+}
+
+.buzz {
+    background-image: url('mosaic.png'), url('mosaic.png');
+    background-repeat: no-repeat;
+    background-size: 28vw;
+    background-position: 120% -50%, -20% 170%
+
+}
+
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: auto;
+}
+
+p {
+    color:  rgb(182, 201, 41);
+    font-size: 1.25rem;
+    font-weight: lighter;
+    font-style: italic;
+    display: flex;
+    justify-content: center;
+
+}
+
+.top_header {
+    color: rgb(238, 32, 92);
+    font-size: 2rem;
+    font-weight: bolder;
+    display: flex;
+    justify-content: center;
+}
+
+.main_header {
+    color: rgb(250, 166, 26);
+    font-size: 4rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.sub_header {
+    color: rgb(182, 201, 41);
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 4rem;
+    padding-left: 4rem;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    display: block;
+}
+
+.iframe {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 70vw;
+    height: 80vh;
+}
