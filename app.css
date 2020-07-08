@@ -36,6 +36,14 @@ p {
 
 }
 
+a { 
+    color: rgb(238, 32, 92); 
+}
+
+a:hover {
+    color: rgb(250, 166, 26);
+}
+
 .top_header {
     color: rgb(238, 32, 92);
     font-size: 2rem;
