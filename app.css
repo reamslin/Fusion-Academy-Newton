@@ -27,8 +27,16 @@ body {
     background-image: url('fusionmosaic.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: 75vw;
-    background-position: 50% 100%;
+    background-size: 70vw;
+    background-position: 50% 130%;
+}
+
+.homework {
+    background-image: url('FusionMosaic_Purple_RGB.png'), url('FusionMosaic_Purple_RGB.png');
+    background-position: -40% 100%, 140% 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 50vw;
 }
 
 
