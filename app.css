@@ -11,6 +11,7 @@ body {
     background-position: 50% 85%;
     background-repeat: no-repeat;
     background-size: 50vh;
+
 }
 
 .buzz {
@@ -24,9 +25,10 @@ body {
 .teachers {
     background-color: white;
     background-image: url('fusionmosaic.jpg');
-    background-repeat: repeat;
-    background-size: 100vw;
-    background-position: 50% -80%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 75vw;
+    background-position: 50% 100%;
 }
 
 
@@ -39,11 +41,11 @@ h1, h2, h3, p {
 
 .main_title {
     background-color: inherit;
-    padding: 1vw;
-    border-radius: 30%;
-    width: auto;
+    padding: 0.5vw;
+    border-radius: 20%;
     display: inline-block;
     justify-self: center;
+    width: auto;
     margin: auto;
 
 }
