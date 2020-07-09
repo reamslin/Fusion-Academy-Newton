@@ -20,6 +20,7 @@ body {
 
 }
 
+
 h1, h2, h3, p {
     margin: 0;
     padding: 0;
@@ -39,10 +40,13 @@ p {
 
 
 .card {
-    background-color: rgb(250, 166, 26)
+    background-color: rgb(238, 32, 92)
 }
 
 .card-title {
+    margin-top: 1rem;
+    text-align: center;
+    font-weight: bold;
     color: rgb(129, 41, 144)
 }
 
@@ -53,9 +57,15 @@ p {
 a { 
     color: rgb(238, 32, 92); 
 }
-.btn-primary {
-    background-color: rgb(182, 201, 41);
-    border-color: rgb(129, 41, 144)
+.btn {
+    color: whitesmoke;
+    background-color: rgba(182, 201, 41, 70);
+    border-color: rgba(182, 201, 41, 100)
+}
+
+.btn:hover {
+    color: whitesmoke;
+    border-color: whitesmoke;
 }
 a:hover {
     color: rgb(250, 166, 26);
@@ -82,8 +92,8 @@ a:hover {
     font-size: 1rem;
     display: flex;
     justify-content: center;
-    letter-spacing: 4rem;
-    padding-left: 4rem;
+    letter-spacing: 2vw;
+    padding-left: 2vw;
 }
 
 .icon {
