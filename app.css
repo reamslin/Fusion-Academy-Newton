@@ -7,11 +7,10 @@ body {
 
 
 .homepage {
-    background-image: url('mosaic.png'), linear-gradient( rgb(129, 41, 144), white);
-    background-position: 50% 85%, 50% 50%;
+    background-image: url('mosaic.png');
+    background-position: 50% 85%;
     background-repeat: no-repeat;
-    background-size: 50vh, 100vw 100vh;
-    background-color: transparent;
+    background-size: 50vh;
 
 }
 
