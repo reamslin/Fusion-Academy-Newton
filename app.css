@@ -7,10 +7,11 @@ body {
 
 
 .homepage {
-    background-image: url('mosaic.png');
-    background-position: 50% 85%;
+    background-image: url('mosaic.png'), linear-gradient( rgb(129, 41, 144), white);
+    background-position: 50% 85%, 50% 50%;
     background-repeat: no-repeat;
-    background-size: 50vh;
+    background-size: 50vh, 100vw 100vh;
+    background-color: transparent;
 
 }
 
@@ -55,7 +56,6 @@ h1, h2, h3, p {
 .main_title {
     background-color: inherit;
     padding: 0.5vw;
-    border-radius: 20%;
     display: inline-block;
     justify-self: center;
     width: auto;
@@ -143,4 +143,8 @@ a:hover {
     justify-content: center;
     margin: auto;
     height: 75vh;
+}
+
+ol {
+    font-size: 1.5rem;
 }
