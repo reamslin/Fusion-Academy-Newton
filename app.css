@@ -39,6 +39,11 @@ body {
     background-size: 50vw;
 }
 
+.code {
+    background-color: transparent;
+    background-image: linear-gradient(black,  rgb(129, 41, 144))
+}
+
 
 h1, h2, h3, p {
     margin: 0;
