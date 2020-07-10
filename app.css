@@ -33,7 +33,7 @@ body {
 
 .homework {
     background-image: url('FusionMosaic_Purple_RGB.png'), url('FusionMosaic_Purple_RGB.png');
-    background-position: -40% 100%, 140% 100%;
+    background-position: -40% 0%, 140% 0%;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 50vw;
@@ -55,6 +55,7 @@ h1, h2, h3, p {
     justify-self: center;
     width: auto;
     margin: auto;
+    padding-top: 75px;
 
 }
 
