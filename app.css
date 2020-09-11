@@ -70,7 +70,8 @@ p {
 }
 
 p.email {
-    font-size: .5rem;
+    font-size: 1rem;
+    margin-bottom: 1rem
 }
 .card {
     background-color: rgb(238, 32, 92)
