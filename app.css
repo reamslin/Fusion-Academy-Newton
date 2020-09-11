@@ -70,7 +70,7 @@ p {
 }
 
 p.email {
-    font-size: 1rem;
+    font-size: .75rem;
     margin-bottom: 1rem
 }
 .card {
