@@ -85,7 +85,8 @@ p.email {
 }
 
 .card-text {
-    color: whitesmoke
+    color: whitesmoke;
+    font-size: 1rem;
 }
 
 a { 
